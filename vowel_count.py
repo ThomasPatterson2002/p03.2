@@ -1,3 +1,5 @@
+
+
 """
 Problem:
 
@@ -27,4 +29,14 @@ def run_tests():
 
 # Edit this code
 def vowels(word):
+
+    
+    total = 0
+    for char in word:
+        if char in "aeiou":
+            total = total + 1
+
+    print(total)
+
+    
 
